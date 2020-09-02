@@ -7,7 +7,19 @@
 # and loop
 
 
-
-
 # what is a REPL?
-# how can we make this game replayable? 
+# how can we make this game replayable?
+
+# In python, null means 0, None means there's nothing there
+
+import random
+value = random.randint(1, 10)
+guess = None
+while (value != guess):
+    guess = input("Guess a number between 1-10! ")
+    guess = int(guess)
+
+    if value == guess:
+        print("Great guess. You win!")
+    else:
+        print("Not correct. Guess again")
