@@ -15,6 +15,8 @@
 - pass by ref vs pass by val
 - 5 min break
 - Apply UPER to a python challenge
+  - Understand, plan, execute, reflect
 - 5 min break
 - REPL (Read Eval Print Loop)
+  - 
 - wrap up
